@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css?family=Courgette|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
+/*font-family: 'Roboto', sans-serif;
+font-family: 'Courgette', cursive;*/
+
+/***
+.myresult{ font-size:18px; color:#77777}
+***/
+* {
+	margin:0px;
+	padding:0px;
+	border:none;
+	outline:none;
+}
+
+.body1 {
+	font-family: 'Roboto', sans-serif;
+	font-size:15px;
+	color:#777777;
+	line-height:1.7em;
+	font-weight:400;
+	background:#ffffff;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+}
+
+
+.container1 {
+    width: 450px;
+    height: 550px;
+  border-radius: 20px;
+  border-radius: 18px;
+  background: #32a9ad;
+  box-shadow:  5px 5px 10px #c1c1c1,
+               -5px -5px 10px #ffffff;
+    margin: 0 auto;
+    padding: 32px 16px;
+    display: flex;
+}       
+
+.a1{
+	text-decoration:none;
+	cursor:pointer;
+	color:#00a700;
+}
+
+.a1:hover,a:focus,a:visited{
+	text-decoration:none;
+	outline:none;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	position:relative;
+	font-weight:normal;
+	margin:0px;
+	background:none;
+	line-height:1.6em;
+	font-family: 'Roboto', sans-serif;
+}
+
+p{
+	position:relative;
+	line-height:1.8em;	
+}
+
+.strike-through{
+	text-decoration:line-through;	
+}
+
+.auto-container1{
+	position:static;
+	max-width:1200px;
+	padding:0px 15px;
+	margin:0 auto;
+}
+
+.medium-container1{
+	max-width:850px;
+}
+
+.page-wrapper{
+	position:relative;
+	margin:0 auto;
+	width:100%;
+	min-width:300px;
+}
+
+ul,li{
+	list-style:none;
+	padding:0px;
+	margin:0px;	
+}
+
+.theme-btn{
+	display:inline-block;
+	transition:all 0.3s ease;
+	-moz-transition:all 0.3s ease;
+	-webkit-transition:all 0.3s ease;
+	-ms-transition:all 0.3s ease;
+	-o-transition:all 0.3s ease;
+}
+
+.centered{
+	text-align:center;	
+}
+
+/*Btn Style*/
+
+.btn-style{
+	position:relative;
+	right: 20px;
+	padding:9px 19px;
+	line-height:12px;
+	text-transform:uppercase;
+	background:#036d70;
+	color:#ffffff;
+	border:2px solid #036d70;
+	font-size:14px;
+	font-weight:700;
+	border-radius:50px;
+}
+
+.btn-style:hover{
+	background:#7b8a7b;
+	color:#2f5455;
+	border:2px solid #c2f5c2;
+}
+
