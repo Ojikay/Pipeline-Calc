@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="KayCalchome.css" />
+        <link rel="stylesheet" href="KayCalc.css">
+        <title>Kay Pigging Calculator</title>
+  </head>
+  <body>
+        <nav class="nav">
+        <div class="container">
+            <h1 class="logo"><a href="/index.html">PIPELINE PIGGING</a></h1>
+
+            <ul class="navigation clearfix">
+            <li><a href="KayCalchome.html">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#" class="current">Pigging Formula-Liquid</a></li>
+            <li><a href="#">Pigging Formula-Gas</a></li>                                  
+            </ul>
+        </div>
+        </nav>
+    </body>
+
+    <body1>
+
+            <h1>PIGGING CALCULATOR</h1>
+            <p>Calculator for Line Volume, Time of Pig Run, Pig distance travelled and Speed of pig</p>
+            
+    
+
+        <div class="container1">
+            <div class="result1">
+            
+            <div class="text1">  
+            
+                
+        
+                                <form method="post" action="">
+                <table border='0' width='100%' cellpadding="5" cellspacing="5" class="web">
+                    
+            <tr>
+                <td align='left' class='itemlabel'><input type=hidden value='a' name='mod'>
+                Pipe Diameter (D): </td>
+                <td class='itemlabel'><input type=text name='fld1' id='fld1' class='generalTextbox1'>
+                <small> inches</small></td>
+            </tr>
+
+            <tr>
+                <td align='left' class='itemlabel'><input type=hidden value='a' name='mod'>
+                Pipe thickness (t): </td>
+                <td class='itemlabel'><input type=text name='fld2' id='fld2' class='generalTextbox1'>
+                <small> inches</small></td>
+            </tr>
+
+            <tr>
+                <td align='left' class='itemlabel'>Length of Pipe (Km): </td>
+                <td class='itemlabel'><input type=text name='fld3' id='fld3' class='generalTextbox1'>
+                <small> Km</small></td>
+            </tr>
+
+            <tr>
+                <td align='left' class='itemlabel'>Flowrate (bpm): </td>
+                <td class='itemlabel'><input type=text name='fld4' id='fld4' class='generalTextbox1'>
+                <small> bpm</small></td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td align=left ><input type=button onclick='ANDY_Function1()'  value='Calculate' class='btn-style'>
+                <input type='Reset' value='Reset' class='theme-btn btn-style'></td> 
+            </tr>
+
+            <tr>
+                <td colspan=2 align=left class='itemlabel'><div id='res' name='res' class="myresult"></div></td>
+            </tr>
+            <tr>
+                <td colspan=2 align=left class='itemlabel'><div id='res11' name='res11' class="myresult"></div></td>
+            </tr>
+            <tr>
+                <td colspan=2 align=left class='itemlabel'><div id='res12' name='res12' class="myresult"></div></td>
+            </tr>
+            <tr>
+                <td colspan=2 align=left class='itemlabel'><div id='res13' name='res13' class="myresult"></div></td>
+            </tr>
+            <tr>
+                <td colspan=2 align=left class='itemlabel'><div id='res14' name='res14' class="myresult"></div></td>
+            </tr>
+
+
+            <tr>
+                <td colspan=2 align=left class='generaltext'><b>Note : </b><font color='#FF0000'>This formula is used for determining the length of time it will take pig to travel a given pipe diameter and length, using a given volume of liquid propellant.  This can be used in verifying pig speed.</font></td>
+            </tr>
+            </table>
+        </form>
+        
+
+
+        <script src="KayCalc.js"></script>
+  </body1>
+</html>
